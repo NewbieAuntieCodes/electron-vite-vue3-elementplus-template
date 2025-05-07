@@ -1,0 +1,16 @@
+@import './base.css';
+
+body,
+html {
+  background-color: #f4f4f5; /* Element Plus 常用的浅灰色背景，或者你喜欢的其他颜色 */
+  margin: 0;
+  padding: 0;
+  font-family:
+    'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑',
+    Arial, sans-serif; /* Element Plus 默认字体栈，或你自己的 */
+}
+#app {
+  /* Vue 应用的根元素 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
